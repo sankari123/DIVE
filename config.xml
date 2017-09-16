@@ -138,6 +138,11 @@
   <allow-intent href="sms:*"/>
   <allow-intent href="mailto:*"/>
   <allow-intent href="geo:*"/>
+	
+   <gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
+        <string>We are using the Camera for something..</string>
+    </gap:config-file>
+	
   <platform name="android">
     <allow-intent href="market:*"/>
   </platform>
